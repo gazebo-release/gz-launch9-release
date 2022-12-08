@@ -1,4 +1,4 @@
-Source: gz-launch6
+Source: gz-launch7
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
 Priority: optional
@@ -20,18 +20,18 @@ Build-Depends: cmake,
                libqt5core5a,
                binutils-dev
 Vcs-Browser: https://github.com/gazebosim/gz-launch
-Vcs-Git: https://github.com/gazebo-release/gz-launch6-release
+Vcs-Git: https://github.com/gazebo-release/gz-launch7-release
 Standards-Version: 4.5.1
 Homepage: https://github.com/gazebosim/gz-launch
 
-Package: libgz-launch6
+Package: libgz-launch7
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Suggests: gz-launch6-cli
-Breaks: libignition-launch6 (<< 5.999.999+nightly+git20220630+2rcec9c00a42bbd412815a3c9d64a3ce9b7dfd186d-2)
-Replaces: libignition-launch6 (<< 5.999.999+nightly+git20220630+2rcec9c00a42bbd412815a3c9d64a3ce9b7dfd186d-2)
+Suggests: gz-launch7-cli
+Breaks: libignition-launch7 (<< 5.999.999+nightly+git20220630+2rcec9c00a42bbd412815a3c9d64a3ce9b7dfd186d-2)
+Replaces: libignition-launch7 (<< 5.999.999+nightly+git20220630+2rcec9c00a42bbd412815a3c9d64a3ce9b7dfd186d-2)
 Multi-Arch: same
 Description: Gazebo Launch Library - Launch libraries
  Gazebo Launch, a component of Gazebo, provides a command line
@@ -39,9 +39,9 @@ Description: Gazebo Launch Library - Launch libraries
  .
  Package contains the Gazebo launch libraries
 
-Package: gz-launch6-cli
+Package: gz-launch7-cli
 Architecture: any
-Depends: libgz-launch6 (= ${binary:Version}),
+Depends: libgz-launch7 (= ${binary:Version}),
          ${shlibs:Depends},
          ${misc:Depends}
 Multi-Arch: no
@@ -51,7 +51,7 @@ Description: Gazebo Launch Library - CLI
  .
  Package contains the CLI
 
-Package: libgz-launch6-dev
+Package: libgz-launch7-dev
 Architecture: any
 Section: libdevel
 Depends: libgz-cmake3-dev,
@@ -67,11 +67,11 @@ Depends: libgz-cmake3-dev,
          libwebsockets-dev,
          qtquickcontrols2-5-dev,
          libqt5core5a,
-         libgz-launch6 (= ${binary:Version}),
+         libgz-launch7 (= ${binary:Version}),
          ${shlibs:Depends},
          ${misc:Depends}
-Breaks: libignition-launch6-dev (<< 5.999.999+nightly+git20220630+2rcec9c00a42bbd412815a3c9d64a3ce9b7dfd186d-2)
-Replaces: libignition-launch6-dev (<< 5.999.999+nightly+git20220630+2rcec9c00a42bbd412815a3c9d64a3ce9b7dfd186d-2)
+Breaks: libignition-launch7-dev (<< 5.999.999+nightly+git20220630+2rcec9c00a42bbd412815a3c9d64a3ce9b7dfd186d-2)
+Replaces: libignition-launch7-dev (<< 5.999.999+nightly+git20220630+2rcec9c00a42bbd412815a3c9d64a3ce9b7dfd186d-2)
 Multi-Arch: same
 Description: Gazebo Launch Library - Development files
  Gazebo Launch, a component of Gazebo, provides a command line
@@ -79,24 +79,24 @@ Description: Gazebo Launch Library - Development files
  .
  Package contains the Gazebo launch development files and cli client
 
-Package: libignition-launch6
-Depends: libgz-launch6, ${misc:Depends}
+Package: libignition-launch7
+Depends: libgz-launch7, ${misc:Depends}
 Architecture: all
 Priority: optional
 Section: oldlibs
 Description: transitional package
  This is a transitional package. It can safely be removed.
 
-Package: ignition-launch6-cli
-Depends: gz-launch6-cli, ${misc:Depends}
+Package: ignition-launch7-cli
+Depends: gz-launch7-cli, ${misc:Depends}
 Architecture: all
 Priority: optional
 Section: oldlibs
 Description: transitional package
  This is a transitional package. It can safely be removed.
 
-Package: libignition-launch6-dev
-Depends: libgz-launch6-dev, ${misc:Depends}
+Package: libignition-launch7-dev
+Depends: libgz-launch7-dev, ${misc:Depends}
 Architecture: all
 Priority: optional
 Section: oldlibs
