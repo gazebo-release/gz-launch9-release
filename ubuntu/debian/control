@@ -7,8 +7,8 @@ Build-Depends: cmake,
                doxygen,
                libgz-cmake3-dev,
                libgz-common5-dev,
-               libgz-sim7-dev,
-               libgz-gui7-dev,
+               libgz-sim8-dev,
+               libgz-gui8-dev,
                libgz-msgs9-dev,
                libgz-plugin2-dev,
                libgz-tools2-dev,
@@ -54,8 +54,8 @@ Architecture: any
 Section: libdevel
 Depends: libgz-cmake3-dev,
          libgz-common5-dev,
-         libgz-sim7-dev,
-         libgz-gui7-dev,
+         libgz-sim8-dev,
+         libgz-gui8-dev,
          libgz-msgs9-dev,
          libgz-plugin2-dev,
          libgz-tools2-dev,
@@ -74,27 +74,3 @@ Description: Gazebo Launch Library - Development files
  interface to run and manager application and plugins.
  .
  Package contains the Gazebo launch development files and cli client
-
-Package: libignition-launch7
-Depends: libgz-launch7, ${misc:Depends}
-Architecture: all
-Priority: optional
-Section: oldlibs
-Description: transitional package
- This is a transitional package. It can safely be removed.
-
-Package: ignition-launch7-cli
-Depends: gz-launch7-cli, ${misc:Depends}
-Architecture: all
-Priority: optional
-Section: oldlibs
-Description: transitional package
- This is a transitional package. It can safely be removed.
-
-Package: libignition-launch7-dev
-Depends: libgz-launch7-dev, ${misc:Depends}
-Architecture: all
-Priority: optional
-Section: oldlibs
-Description: transitional package
- This is a transitional package. It can safely be removed.
