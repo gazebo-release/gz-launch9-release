@@ -29,7 +29,7 @@ Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Suggests: gz-launch7-cli
+Recommends: gz-launch7-cli
 Multi-Arch: same
 Description: Gazebo Launch Library - Launch libraries
  Gazebo Launch, a component of Gazebo, provides a command line
