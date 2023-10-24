@@ -1,23 +1,6 @@
-gz-launch7 (7.0.0-1~jammy) jammy; urgency=medium
-
-  * gz-launch7 7.0.0-1 release
-
- -- Addisu Z. Taddese <addisu@openrobotics.org>  Fri, 29 Sep 2023 17:01:20 -0500
-
-gz-launch7 (7.0.0~pre2-1~jammy) jammy; urgency=medium
-
-  * gz-launch7 7.0.0~pre2-1 release
-
- -- Addisu Z. Taddese <addisu@openrobotics.org>  Thu, 28 Sep 2023 23:30:08 -0500
-
-gz-launch7 (7.0.0~pre1-1~jammy) jammy; urgency=medium
-
-  * gz-launch7 7.0.0~pre1-1 release
-
- -- Ian Chen <ichen@openrobotics.org>  Thu, 31 Aug 2023 07:00:46 +0000
-
-gz-launch7 (6.999.999-1~jammy) jammy; urgency=medium
+gz-launch8 (7.999.999-1~jammy) jammy; urgency=medium
 
   * Stub to be removed after first entry
 
- -- Ian Chen <ichen@openrobotics.org>  Wed, 07 Dec 2022 17:52:18 -0700
+ -- Ian Chen <ichen@openrobotics.org>  Wed, 11 Oct 2023 21:03:50 +0000
+
