@@ -1,3 +1,9 @@
+gz-launch8 (8.0.0-1~jammy) jammy; urgency=medium
+
+  * gz-launch8 8.0.0-1 release
+
+ -- Ian Chen <ichen@openrobotics.org>  Fri, 27 Sep 2024 04:59:41 +0000
+
 gz-launch8 (8.0.0~pre1-1~jammy) jammy; urgency=medium
 
   * gz-launch8 8.0.0~pre1-1 release
