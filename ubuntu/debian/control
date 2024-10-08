@@ -1,4 +1,4 @@
-Source: gz-launch8
+Source: gz-launch9
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
 Priority: optional
@@ -20,16 +20,16 @@ Build-Depends: cmake,
                libqt5core5a,
                binutils-dev
 Vcs-Browser: https://github.com/gazebosim/gz-launch
-Vcs-Git: https://github.com/gazebo-release/gz-launch8-release
+Vcs-Git: https://github.com/gazebo-release/gz-launch9-release
 Standards-Version: 4.5.1
 Homepage: https://github.com/gazebosim/gz-launch
 
-Package: libgz-launch8
+Package: libgz-launch9
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Recommends: gz-launch8-cli
+Recommends: gz-launch9-cli
 Multi-Arch: same
 Description: Gazebo Launch Library - Launch libraries
  Gazebo Launch, a component of Gazebo, provides a command line
@@ -37,9 +37,9 @@ Description: Gazebo Launch Library - Launch libraries
  .
  Package contains the Gazebo launch libraries
 
-Package: gz-launch8-cli
+Package: gz-launch9-cli
 Architecture: any
-Depends: libgz-launch8 (= ${binary:Version}),
+Depends: libgz-launch9 (= ${binary:Version}),
          ${shlibs:Depends},
          ${misc:Depends}
 Multi-Arch: no
@@ -49,7 +49,7 @@ Description: Gazebo Launch Library - CLI
  .
  Package contains the CLI
 
-Package: libgz-launch8-dev
+Package: libgz-launch9-dev
 Architecture: any
 Section: libdevel
 Depends: libgz-cmake4-dev,
@@ -65,7 +65,7 @@ Depends: libgz-cmake4-dev,
          libwebsockets-dev,
          qtquickcontrols2-5-dev,
          libqt5core5a,
-         libgz-launch8 (= ${binary:Version}),
+         libgz-launch9 (= ${binary:Version}),
          ${shlibs:Depends},
          ${misc:Depends}
 Multi-Arch: same
