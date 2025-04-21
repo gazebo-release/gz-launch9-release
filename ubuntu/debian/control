@@ -61,8 +61,6 @@ Depends: libgz-cmake4-dev,
          libsdformat15-dev,
          libtinyxml2-dev ,
          libwebsockets-dev,
-         qtquickcontrols2-5-dev,
-         libqt5core5a,
          libgz-launch9 (= ${binary:Version}),
          ${shlibs:Depends},
          ${misc:Depends}
