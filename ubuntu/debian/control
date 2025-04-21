@@ -16,8 +16,6 @@ Build-Depends: cmake,
                libsdformat15-dev,
                libtinyxml2-dev,
                libwebsockets-dev,
-               qtquickcontrols2-5-dev,
-               libqt5core5a,
                binutils-dev
 Vcs-Browser: https://github.com/gazebosim/gz-launch
 Vcs-Git: https://github.com/gazebo-release/gz-launch9-release
