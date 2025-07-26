@@ -70,3 +70,19 @@ Description: Gazebo Launch Library - Development files
  interface to run and manager application and plugins.
  .
  Package contains the Gazebo launch development files and cli client
+
+Package: gz-jetty-launch
+Depends: libgz-launch9-dev (= ${binary:Version}), ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: metapackages
+Description: alias package
+ Provides a package for Jetty without exposing the version number.
+
+Package: gz-jetty-launch-cli
+Depends: gz-launch9-cli (= ${binary:Version}), ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: metapackages
+Description: alias package
+ Provides a package for Jetty without exposing the version number.
