@@ -1,0 +1,17 @@
+gz-launch9 (9.0.1-1~resolute) resolute; urgency=medium
+
+  * gz-launch9 9.0.1-1 release
+
+ -- Arjo Chakravarty <arjo@intrinsic.ai>  Thu, 11 Jun 2026 02:24:01 +0000
+
+gz-launch9 (9.0.0-1~resolute) resolute; urgency=medium
+
+  * gz-launch9 9.0.0-1 release
+
+ -- Carlos Aguero <caguero@osrfoundation.org>  Mon, 29 Sep 2025 23:06:20 +0200
+
+gz-launch9 (9.0.0~pre1-1~resolute) resolute; urgency=medium
+
+  * gz-launch9 9.0.0~pre1-1 release
+
+ -- Addisu Z. Taddese <addisu@openrobotics.org>  Tue, 26 Aug 2025 23:46:28 -0500
