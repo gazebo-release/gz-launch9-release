@@ -1,22 +1,22 @@
-gz-launch9 (9.0.1-2~noble) noble; urgency=medium
+gz-launch9 (9.0.1-2~resolute) resolute; urgency=medium
 
   * gz-launch9 9.0.1-2 release
 
  -- Steve Peters <scpeters@intrinsic.ai>  Fri, 28 Aug 2026 21:49:03 +0000
 
-gz-launch9 (9.0.1-1~noble) noble; urgency=medium
+gz-launch9 (9.0.1-1~resolute) resolute; urgency=medium
 
   * gz-launch9 9.0.1-1 release
 
  -- Arjo Chakravarty <arjo@intrinsic.ai>  Thu, 11 Jun 2026 02:24:01 +0000
 
-gz-launch9 (9.0.0-1~noble) noble; urgency=medium
+gz-launch9 (9.0.0-1~resolute) resolute; urgency=medium
 
   * gz-launch9 9.0.0-1 release
 
  -- Carlos Aguero <caguero@osrfoundation.org>  Mon, 29 Sep 2025 23:06:20 +0200
 
-gz-launch9 (9.0.0~pre1-1~noble) noble; urgency=medium
+gz-launch9 (9.0.0~pre1-1~resolute) resolute; urgency=medium
 
   * gz-launch9 9.0.0~pre1-1 release
 
